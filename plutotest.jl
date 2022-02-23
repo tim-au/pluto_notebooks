@@ -4,6 +4,13 @@
 using Markdown
 using InteractiveUtils
 
+# ╔═╡ a1f3c030-245f-4b66-a71a-a6b4ff5d918c
+begin
+  import Pkg
+  Pkg.activate(Base.current_project())
+  #Pkg.instantiate()
+end
+
 # ╔═╡ 9b289470-936a-11ec-1c08-2ffde3e2f60a
 begin
 	using Plots
@@ -1042,6 +1049,7 @@ version = "0.9.1+5"
 # ╔═╡ Cell order:
 # ╟─a95219b5-45d9-43a7-8e86-fa1297df57dc
 # ╟─7c1da917-b95c-408e-bbc1-b250a4879d34
+# ╠═a1f3c030-245f-4b66-a71a-a6b4ff5d918c
 # ╠═9b289470-936a-11ec-1c08-2ffde3e2f60a
 # ╠═574d2dfa-91d3-4f52-b66e-2521635daafe
 # ╟─5ca5c5e6-568c-40e1-8aa0-9082ac118818
